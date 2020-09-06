@@ -12,7 +12,7 @@ settings = get_settings()
 
 app.mount('/static', StaticFiles(directory=f"{settings.app_path}/static"), name="static")
 
-templates = Jinja2Templates(directory=f"{settings.app_path}/templates")
+templates = Jinja2Templates(directory=f"{settings.app_path}/src/templates")
 
 
 @app.get("/", response_class=HTMLResponse)
