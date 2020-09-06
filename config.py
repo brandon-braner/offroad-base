@@ -28,5 +28,4 @@ def get_settings():
 
     load_dotenv(dotenv_path=common_env)
     load_dotenv(dotenv_path=environment_env, override=True)
-    print(Settings().dict())
     return Settings()
