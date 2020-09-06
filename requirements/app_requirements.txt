@@ -1,0 +1,2 @@
+#Install commands via the setup.py file https://click.palletsprojects.com/en/7.x/setuptools/
+-e ./orb.commands
